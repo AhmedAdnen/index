@@ -1,0 +1,152 @@
+/* Navbar */
+nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width: 200px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ nav li:hover{ 
+    color: aqua;
+}
+nav li{
+    color: #ababab;
+}
+#a{
+    color: #00b39b;
+}
+/* End of Navbar */
+/* Making section */
+.Making{
+    width: 70%;
+    margin: 20px auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Making img{
+    width: 20px;
+}
+.Making h1{
+    color: #00b39b;
+}
+#Paragraphs{
+    color: #ababab;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    line-height:  1.5em; 
+}
+/* End of Making section  */
+/* 3 blayk */
+.blayk{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    gap: 20px;
+}
+.card{
+    background-color: #00b39b;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em 2em;
+    border-radius: 20px;
+}
+.card2{
+    background-color: blue;
+}
+.fin{
+    background-color: black;
+}
+.p{
+    line-height: 1.5em;
+    font-size: 20px;
+}
+select{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+}
+option{
+    color: black;
+}
+/* End of 3 blayk */
+/* global */
+.global{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.global h1{
+    width: 30%;
+    color: #00b39b;
+}
+.images{
+    width: 60%;
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 20px;
+}
+.images svg{
+    width: 21%;
+}
+/* End of global */
+/* country */
+.countries{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.country{
+    width: 30%;
+}
+.country img{
+    width: 100%;
+}
+.country div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    border-radius: 10px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: aliceblue;
+}
+/* End of country */
+/* Sounds */
+.Sounds{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sounds button{
+    width: 40%;
+    height: 30px;
+}
+.Sounds h1{
+    font-size: 20px;
+    color: #00b39b;
+}
+/* End of Sounds */
